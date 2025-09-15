@@ -2,15 +2,19 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, Brain, Calendar, Zap } from "lucide-react";
 import heroMockup from "@/assets/hero-mockup.jpg";
+import ParticleBackground from "./ParticleBackground";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle">
+      {/* 3D Particle Background */}
+      <ParticleBackground />
+      
       {/* Background gradient orbs */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-20 w-72 h-72 bg-tech-blue/20 rounded-full blur-3xl float-animation" />
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-tech-purple/20 rounded-full blur-3xl float-animation" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-tech-cyan/20 rounded-full blur-3xl float-animation" style={{ animationDelay: '4s' }} />
+        <div className="absolute top-20 left-20 w-72 h-72 bg-tech-blue/10 rounded-full blur-3xl float-animation" />
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-tech-purple/10 rounded-full blur-3xl float-animation" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-tech-cyan/10 rounded-full blur-3xl float-animation" style={{ animationDelay: '4s' }} />
       </div>
       
       <div className="relative z-10 container mx-auto px-6 py-20">
