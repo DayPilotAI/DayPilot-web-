@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="space-y-8">
             <Badge variant="secondary" className="w-fit">
               <Sparkles className="w-4 h-4 mr-2" />
-              AI-Powered Life Organizer
+              Coming Soon - AI-Powered Life Organizer
             </Badge>
             
             <div className="space-y-6">
@@ -33,22 +33,22 @@ const Hero = () => {
               </h1>
               
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                The intelligent companion that automatically tracks, organizes, and optimizes your daily life—so you don't have to.
+                The intelligent companion we're building to automatically track, organize, and optimize your daily life—so you don't have to.
               </p>
               
               <p className="text-lg text-muted-foreground">
-                <span className="font-semibold text-foreground">70% AI-driven</span> personalization, prediction, and automation. Never manually track your activities again.
+                <span className="font-semibold text-foreground">70% AI-driven</span> personalization, prediction, and automation. Currently in development with exciting features being built.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-gradient-primary border-0 hover:shadow-glow transition-all duration-300 text-white font-semibold px-8">
                 <Brain className="w-5 h-5 mr-2" />
-                Experience the AI
+                Join Waitlist
               </Button>
               <Button variant="outline" size="lg" className="font-semibold">
                 <Calendar className="w-5 h-5 mr-2" />
-                Watch Demo
+                Get Updates
               </Button>
             </div>
             
@@ -63,8 +63,8 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground">Manual Input</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold gradient-text">Smart</div>
-                <div className="text-sm text-muted-foreground">Predictions</div>
+                <div className="text-2xl font-bold gradient-text">Beta</div>
+                <div className="text-sm text-muted-foreground">Coming Soon</div>
               </div>
             </div>
           </div>
@@ -83,14 +83,14 @@ const Hero = () => {
             <div className="absolute -top-4 -right-4 bg-card border rounded-xl p-4 shadow-elegant float-animation">
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5 text-tech-purple" />
-                <span className="text-sm font-medium">AI Detected: Flight at 4 PM</span>
+                <span className="text-sm font-medium">AI Development: Smart scheduling</span>
               </div>
             </div>
             
             <div className="absolute -bottom-4 -left-4 bg-card border rounded-xl p-4 shadow-elegant float-animation" style={{ animationDelay: '1s' }}>
               <div className="flex items-center gap-2">
                 <Brain className="w-5 h-5 text-tech-blue" />
-                <span className="text-sm font-medium">Smart reminder sent</span>
+                <span className="text-sm font-medium">Building: Smart reminders</span>
               </div>
             </div>
           </div>
